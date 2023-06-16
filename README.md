@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# Pomodoro_Timer_React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto FrontEnd construido no Curso de <a href="https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/" target="_blank">Curso de JavaScript e TypeScript do básico ao avançado</a> pela Udemy Academy para aplicar os conhecimentos de TypeScript e Manipulação do DOM.
+Totalmente Responsivo (Desktop e Mobile).
 
-## Available Scripts
+## Link Deploy - Veja o Projeto!
+<a href="https://pomodoro-timer-enthony.netlify.app/"> Link do deploy <- Clique Aqui</a>
 
-In the project directory, you can run:
+## Funções e Recursos da Aplicação: 
+* Pomodoro Timer com tempos fixos (25min - 5min - 15min).
+* Tempo de: Trabalho, descanso longo e descanso curso.
+* Registra todos os tempos do pomodoro.
+* Toques sonoros ao finalizar cada tempo.
 
-### `npm start`
+## Tecnologias usadas:
+* FrontEnd: *React.js*
+* Estilo: *CSS3*
+* Linguagem: *TypeScript - (TSX)*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Instalação e Execução do Projeto
+1. Faça o download ou cópia deste repositório.
+2. Instale o Node em sua máquina.
+3. Instalar dependências. Na pasta raiz do projeto execute no CMD o comando:
+>npm install
+4. Executar o servidor. Na pasta raiz, após instalar as dependências, execute o comando:
+>npm start
+5. Se tudo ocorrer bem, acesse a aplicação no endereço: http://localhost:3000
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Estrutura de Diretórios:
+<pre>
+  > public/index.html -> Estrutura HTML pricipal da aplicação.
+  > src
+    > components -> Arquivos componentes 
+    > hooks/use-interval.tsx -> Possibilita o uso da função setInterval no TypeScript dentro do React
+    > sounds -> Arquivos de som
+    > utils -> Funções de conversão e formatação de tempo.
+  App.tsx -> Container principal da aplicação
+  index.tsx -> Renderiza o App.txs no index.html da aplicação.
+</pre>
 
-### `npm test`
+## Dependências:
+<p>Listadas no arquivo <b>package.json</b></p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>Confira algumas imagens abaixo:</p>
+<img src="https://raw.githubusercontent.com/Enthony2021/imagens_dos_projetos/main/pomodoro-timer.png"></img>
+<p>---</p>
+<img src="https://raw.githubusercontent.com/Enthony2021/imagens_dos_projetos/main/pomodoro-timer2.png"></img>
+<p>---</p>
+<img src="https://raw.githubusercontent.com/Enthony2021/imagens_dos_projetos/main/pomodoro-timer3.png"></img>
+<p>---</p>
+<img src="https://raw.githubusercontent.com/Enthony2021/imagens_dos_projetos/main/pomodoro-timer4.png"></img>
+<p>---</p>
+<img src="https://raw.githubusercontent.com/Enthony2021/imagens_dos_projetos/main/pomodoro-timer5.png"></img>
+<p>---</p>
 
-### `npm run build`
+Para sugestões, críticas e melhoramentos deste projeto, por favor entrar em contato comigo através dos links no meu perfil.
+Enthony Stevie
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
