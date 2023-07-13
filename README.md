@@ -8,7 +8,7 @@ Totalmente Responsivo (Desktop e Mobile).
 
 ## Funções e Recursos da Aplicação: 
 * Pomodoro Timer com tempos fixos (25min - 5min - 15min).
-* Tempo de: Trabalho, descanso longo e descanso curso.
+* Tempo de: Trabalho, descanso longo e descanso curto.
 * Registra todos os tempos do pomodoro.
 * Toques sonoros ao finalizar cada tempo.
 
